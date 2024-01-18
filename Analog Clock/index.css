@@ -1,0 +1,47 @@
+#clockcontainer
+{
+    position: relative;/* yeh mera hands ko fixed kar diya  */
+    background-color: red;
+    margin: auto;
+    /* border: 2px solid red; */
+    height: 42vw;
+    width: 42vw;
+    background: url(Analogue_clock_face.svg.png) no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#second
+{
+    position: absolute;
+    /* isse mera screen ke reference mei aagaya  */
+    background: black;
+    border-radius: 10px;
+}
+#hour
+{
+    width:1%;
+    height:20%;
+    top: 30%;
+    left:49.4%;
+    transform-origin: bottom;
+}
+#minute
+{
+    width:0.7%;
+    height: 25%;
+    top: 25%;
+    left:49.4%;
+    /* opacity: 0.4; */
+    /* display: none; */
+    transform-origin: bottom;
+}
+#second
+{
+    width:0.5%;
+    height: 30%;
+    top: 20%;
+    left:49.4%;
+    /* opacity: 0.8; */
+    /* display: none; */
+    transform-origin: bottom;
+
+}
